@@ -1,0 +1,43 @@
+.startupCarousel {
+  background-color: black;
+  width: 100vw;
+  height: fit-content;
+
+}
+.startupTitle {
+  color: white;
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  font-family: "legal gothic";
+}
+.startupCarousel {
+position: relative;
+}
+.imageWrapper {
+  left: 0;
+  width: 100%;
+  height: 65vh;
+  overflow: hidden;
+  }
+  
+  .imageWrapper img {
+  top: 0;
+  left: 0;
+  height: 65vh;
+  animation: carousel 10s linear infinite;
+  }
+  
+  @keyframes carousel {
+  0% {
+  transform: translateX(0);
+  }
+  50% {
+  transform: translateX(-18%);
+  }
+  100%{
+    transform: translateX(0%);
+  }
+  }

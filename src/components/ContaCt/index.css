@@ -1,0 +1,63 @@
+.Contact-us{
+    background-color: rgba(252, 186, 3, 0.74);
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 100px;
+    margin-bottom: -142px;
+    padding-top: 100px;
+}
+
+.Contact-us .Contact-box {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px 50px 10px 50px;
+}
+
+.Contact-us .Contact-box .Contact-Heading{
+    display: flex;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+
+.Contact-us .Contact-box .Contact-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.Contact-us .Contact-box .Contact-details input, textarea, button{
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    padding-left: 10px;
+    width: 70vw;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+
+.Contact-us .Contact-box .Contact-details textarea::placeholder{
+    color:red;
+}
+
+.Contact-us .Contact-box .Contact-details textarea{
+    height: 8vh;
+}
+
+.Contact-us .Contact-box .Contact-details button{
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.Contact-us .Contact-box .Contact-details button:focus{
+    background-color: darkgoldenrod;
+}

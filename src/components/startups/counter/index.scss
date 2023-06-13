@@ -1,0 +1,36 @@
+.count_container {
+  height: fit-content;
+  display: flex;
+  background-color: #fff;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border: 5px solid black;
+}
+
+@media(width<756px){
+  .count_container{
+    display: flex;
+  }
+
+  .count_container .count_box1 {
+    margin-top: 5vh;
+  }
+}
+
+.count_container .count_item {
+  display: flex;
+}
+
+.count_container .count_box1 {
+  height: 150px;
+  width: 150px;
+  border: 5px solid #000;
+}
+
+.count_container .count_item .fontss {
+  padding-top: 45px;
+  padding-left: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+}

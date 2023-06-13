@@ -1,0 +1,82 @@
+.hero_container {
+  margin: 0;
+  position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+  // background-color: rgba(252, 186, 3, 1);
+  background-color: black;
+  }
+  
+  .hero_box1 {
+  width: 94.697vw;
+  height: 3rem;
+  background: #ffffff;
+  }
+  
+  .hero_box2 {
+  width: 61.6501vw;
+  height: 3rem;
+  margin-top: 1.3021vh;
+  margin-left: 58.522vw;
+  background: #ffffff;
+  }
+  
+  .hero_box3 {
+  width: 61.6501vw;
+  height: 3rem;
+  background: #ffffff;
+  }
+  
+  // .hero_edc {
+  // font-family: "League Gothic";
+  // font-style: normal;
+  // font-weight: 900;
+  // font-size: 16.1455vw;
+  // letter-spacing: 0.05em;
+  // margin: 0;
+  // margin-left: 10.9615vw;
+  // line-height: 1;
+  
+  // color: #ffffff;
+  // }
+
+  .hero_edc {
+    font-family: "League Gothic";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.1455vw;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 10.9615vw;
+    line-height: 1;
+    
+    color: #ffffff;
+    }
+
+    
+  
+  // .hero_college {
+  // font-family: "League Gothic";
+  // font-style: normal;
+  // font-weight: 800;
+  // font-size: 7.3242vw;
+  // margin: 0;
+  // margin-left: 1.4583vw;
+  // line-height: 1;
+  
+  // color: #ffffff;
+  // }
+
+  .hero_college {
+    font-family: "League Gothic";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 3.3242vw;
+    margin: 0;
+    margin-left: 10.8883vw;
+    line-height: 1;
+    
+    color: #ffffff;
+    }
